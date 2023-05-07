@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 </head>
 <body>
-<form action="authenticate" method="post">
+<form action="../authenticate" method="post">
 	Email : <input type="text" name="email"/>
 	
 	<br><Br>

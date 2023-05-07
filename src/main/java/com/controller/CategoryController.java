@@ -17,25 +17,15 @@ public class CategoryController {
 
 		// if login ? then go ahead
 		// else login
-		if (session.getAttribute("user") == null) {
-			model.addAttribute("error", "Please Login Before Accessing the service...");
-			return "Login";
-		} else {
-			return "NewCategory";
-		}
+		return "NewCategory";
 	}
 
 	// http://localhost:9999/category/all
 	@GetMapping("/all")
-	public String getAllCategory(Model model,HttpSession session) {
+	public String getAllCategory(Model model, HttpSession session) {
 		// if login ? then go ahead
 		// else login
-		if (session.getAttribute("user") == null) {
-			model.addAttribute("error", "Please Login Before Accessing the service...");
-			return "Login";
-		} else {
-			return "ListCategory";
-		}
+		return "ListCategory";
 
 	}
 }
