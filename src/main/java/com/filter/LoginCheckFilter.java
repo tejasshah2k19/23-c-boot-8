@@ -11,8 +11,10 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+@Qualifier(value = "1")
 @Component
 public class LoginCheckFilter implements Filter {
 
