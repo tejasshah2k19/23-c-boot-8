@@ -1,0 +1,62 @@
+JAVA api 
+
+JDBC api 
+
+SOAP api 
+			XML 
+			
+			
+REST api -> json
+
+	1) input | output -> json 
+	2) POST 	new		/user
+	3) GET  	read	/user 
+	4) PUT		update  /user 
+	5) DELETE   destroy /user/:userId 
+	6) GET 		read 1  /user/:userId 
+	 
+	 
+	url -> hit -> input - output 
+	
+	
+	XML JSON -> type => network data transfer 
+
+	<movies>
+		<movie>		
+			<name>TheKeralaStory</name>
+			<cast>XX</cast>
+		</movie>
+		<movie>		
+			<name>TheKeralaStory</name>
+			<cast>XX</cast>
+		</movie>
+	</movies>
+	
+	JSON 
+	
+	{
+		"key":"value" 
+	}
+	
+	
+	
+	movies:{
+			[
+				movie:{
+					"name":"TheKeralaStory",
+					"cast":"XX"
+				},
+				movie:{
+				}
+			]
+	}
+	
+	
+	boot -> json 
+	
+	
+	REST CLIENT -> its tool which is used to consume rest api 
+	postman -> 
+	
+	
+	
