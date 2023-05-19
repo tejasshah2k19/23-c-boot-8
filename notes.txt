@@ -59,4 +59,54 @@ REST api -> json
 	postman -> 
 	
 	
+-----------------------------------------------
+
+hibernate ==> 
+	java database framework
+	ORM tool [ ORM Based ] 
+	hibernate implements JPA. jpa is a specification.
 	
+	
+	
+	ORM 
+	Hibernate   
+	
+	
+	any java app ->   object {fn ln em pwd }  ->  ORM{hibernate} -->  database  
+
+
+hibernate architecture ::
+
+	Configuration -> configuration for your hibernate : database  [ XML properties]  
+	SessionFactory -> factory -> create session  
+	Session  		-> connection -> execute query 
+					 
+	Transaction -> commit rollback
+	Query      -> create query  
+	Criteria   -> join filter where condition 
+
+----------------------------------------------------------------------------------
+
+jpa{hibernate} + spring 
+
+hibernate + core java 
+
+
+----------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
